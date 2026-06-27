@@ -1,0 +1,16 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+openai>=1.51.0
+httpx>=0.27.0
+python-dotenv>=1.0.0
+redis>=5.0.8
+pydantic>=2.12.0
+pydantic-settings>=2.8.0
+google-generativeai>=0.8.0
+yfinance>=0.2.54
+supabase>=2.11.0
+pdfplumber>=0.11.4
+python-multipart>=0.0.12
+sqlalchemy>=2.0.30
+bcrypt>=4.1.0
+

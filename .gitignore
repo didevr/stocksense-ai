@@ -1,0 +1,36 @@
+# Dependency directories
+**/node_modules/
+**/venv/
+**/.venv/
+
+# Build outputs
+**/.next/
+**/build/
+**/dist/
+
+# Local databases and logs
+**/*.db
+**/*.log
+stocksense-backend/stocksense.db
+stocksense-backend/uvicorn.stderr.log
+stocksense-backend/uvicorn.stdout.log
+
+# Python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+
+# IDE and System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Security & environment credentials (VERY IMPORTANT to ignore!)
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
